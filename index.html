@@ -21,11 +21,7 @@
         <script type="text/javascript">
             //var ref = window.open('http://www.evianmedicalsupply.com', '_blank', 'location=no');
             //var ref = window.open("http://onestopmedicalsupplyshop.com/", "_blank", "location=no");
-            navigator.notification.activityStart("Please Wait", "Testing...");
-
-            document.addEventListener("deviceready", onDeviceReady, false);
-
-            function onDeviceReady() {
+            //document.addEventListener("deviceready", onDeviceReady, false);
                  var ref = window.open('http://onestopmedicalsupplyshop.com/', '_blank', 'location=no,toolbar=no');
                  ref.addEventListener('loadstart', function(event)
                  { 
@@ -47,7 +43,6 @@
                  ref.addEventListener('exit', function(event) 
                  { 
                  });
-            }
         </script>
     </body>
 </html>
